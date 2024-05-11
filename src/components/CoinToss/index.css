@@ -1,0 +1,79 @@
+/* index.css */
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:  #e2a139;
+}
+
+.card {
+  width: 320px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.para {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #334155;
+  margin-bottom: 24px;
+}
+
+.coinImg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 24px;
+  align-self: center;
+}
+
+.btnStyle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color:  #a35200;
+  background-color:  #f9d423;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  outline: none;
+  width: 120px;
+  align-self: center;
+}
+
+
+.countsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.countStyle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color:  #475569;
+  padding: 8px;
+  border-radius: 4px;
+}
+@media (max-width: 767px)
+{
+  .countsContainer{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .countStyle{
+    padding: 2px;
+  }
+}
